@@ -1,5 +1,9 @@
 *{
   box-sizing: border-box;
+  outline: 0;
+}
+*:focus{
+  box-shadow: 0 0 3px 3px blue;
 }
 body{
   font-family: "Rubik","Arial", sans-serif;
@@ -22,8 +26,8 @@ body{
   padding-right: 20px;
 }
 .site-header{
+  max-width: 100%;
   border-top: 4px solid #295093;
-  min-width: 1440px;
   background-color: #F6F6F9;
   padding-bottom: 25px;
 }
@@ -195,16 +199,20 @@ body{
   margin-bottom: 15px;
 }
 .main-inbox{
-  /* display: flex; */
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
 
-
-
+.form-section{
+  margin-right: auto;
+  width: 50%;
 
 }
 .information{
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+
 }
 .information-input{
   background-color: #F1F1F1;
@@ -268,8 +276,9 @@ textarea{
   border-radius: 5px;
   padding: 23px;
   padding-bottom: 0;
-  margin-left: auto;
-  max-width: 40%;
+  margin: 0;
+  width: 40%;
+
 }
 .logo-info{
   margin-left: 120px;
@@ -329,4 +338,86 @@ textarea{
   width: 109px;
   height: 33px;
   vertical-align: middle;
+}
+/*  */
+.site-footer{
+  width: 100%;
+  background-color: #295093;
+  padding-top: 18px;
+  padding-bottom: 28px;
+}
+.site-footer-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.logo-bottom-link{
+  background-color: #133C82;
+  border-radius: 5px;
+  padding: 10px;
+}
+.logo-bottom-img{
+  width: 171px;
+  height: 13px;
+  vertical-align: middle;
+}
+.site-footer-top-text{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-left: 188px;
+  margin-right: 17px;
+}
+.blue-telegram-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color:  #295093;;
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+.line{
+  display: block;
+  width: 1200px;
+  height: 3px;
+  background-color:#133C82;
+  margin-bottom: 18px;
+}
+.footer-bottom{
+  display: flex;
+  align-items: flex-start;
+
+}
+.footer-bottom-inbox{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  width: 365px;
+  margin-right: 111px;
+}
+.footer-bottom-list{
+  list-style-type: none;
+  margin-right: 115px;
+  
+}
+.footer-bottom-second-list{
+  margin-right: 0;
+
+}
+.footer-bottom-list li{
+  margin-bottom: 8px;
+
+}
+.footer-bottom-link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
