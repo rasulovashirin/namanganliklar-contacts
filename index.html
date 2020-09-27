@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>namanganliklar</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+
+      <div class="site-header-top">
+        <a class="logo-link" href="#">
+          <img class="logo-img" src="img/logo.png" alt="namanganliklar logo" width="300" height="21" srcset="img/logo.png 1x, img/logo@2x.png 2x" >
+        </a>
+
+        <ul class="currency-list">
+          <li class="currency-list-item"><span class="currency-list-span">&#36;</span>10137.2</li>
+          <li class="currency-list-item"><span class="currency-list-span">&#8381;</span>138.26</li>
+          <li class="currency-list-item currency-list-item-last"><span class="currency-list-span">&#8364;</span>10988.72</li>
+        </ul>
+
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="POST">
+          <label class="visually-hidden" for="search-input" >search</label>
+          <input class="search-input" type="text" id="search-input" name="search-input" placeholder="поиск">
+          <button class="search-button" type="submit">
+            <img class="search-button-img" src="img/search.png" alt="search" width="24" height="24" srcset="img/search.png 1x, img/search@2x.png 2x">
+          </button>
+
+          <label class=" visually-hidden label" for="lang-select">lang</label>
+          <div  class="lang-box">
+            <select class="lang-select" name="lang-select" id="lang-select">
+              <option class="lang-select-option" value="ru">РУ</option>
+              <option class="lang-select-option" value="uz">УЗ</option>
+            </select>
+          </div>
+        </form>
+
+        <a class="telegram-link" href="#" target="_blank">
+          <img class="telegram-img" src="img/telegram.png" alt="telegram" width="20" height="20" srcset="img/telegram.png 1x, img/telegram@2x.png 2x">
+          Подписатся
+        </a>
+      </div> <!--site-header-top-->
+      <nav class="menu-bar">
+        <ul class="menu-bar-list">
+          <li><a class="menu-link" href="#" target="_blank">Узбекистана</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Мир</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Экономика</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Политика</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Общество</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Технологии</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Спорт</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Культура</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Происшествия</a></li>
+          <li><a class="menu-link" href="#" target="_blank">Туризм</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <a href="#" target="_blank">
+          <img class="nrg-img" src="img/nrg.jpg" alt="nrg" width="1200" height="99" srcset="img/nrg.jpg 1x, img/nrg@2x.jpg 2x">
+        </a>
+      </aside>
+
+    </div> <!--container-->
+  </header>
+  <main class="site-main">
+    <div class="container">
+      <h2 class="main-title">Напишите нам</h2>
+      <div class="main-inbox">
+        <form class="information" action="https://echo.htmlacademy.ru" method="POST">
+
+          <label class="visually-hidden" for="name-input"></label>
+          <input class="information-input" type="text" id="name-input" name="name-input" placeholder="Имя" required>
+
+          <label class="visually-hidden" for="email-input"></label>
+          <input class="information-input" type="email" id="email-input" name="email-input" placeholder="Электронная почта" required>
+
+          <label class="visually-hidden" for="tel-input"></label>
+          <input class="information-input" type="tel" id="tel-input" name="tel-input" placeholder="Номер телефона" required>
+
+          <label class="visually-hidden" for="theme-input"></label>
+          <input class="information-input" type="text" id="theme-input" name="theme-input" placeholder="Тема" required>
+
+          <label class="visually-hidden" for="info-textarea"></label>
+          <textarea class="information-input textarea" type="text" id="info-textarea" name="info-textarea" placeholder="Текст"required></textarea>
+
+          <div class="file-box">
+            <label class="file-label-input" for="file-input">Прикрепить файл</label>
+            <input class="information-input visually-hidden" type="file" id="file-input" name="file-input" accept="" placeholder="Прикрепить файл" required>
+          </div>
+
+          <label class="visually-hidden" for="password-input"></label>
+          <input class="information-input password-input" type="password" id="password-input" name="password-input" placeholder="Код" required>
+
+          <button class="information-button" type="submit">Отправить</button>
+
+        </form>
+
+        <section class="about-site">
+          <img class="logo-img logo-info" src="img/logo.png" alt="namanganliklar logo" width="300" height="21" srcset="img/logo.png 1x, img/logo@2x.png 2x">
+          <ul class="about-list">
+
+            <li class="about-list-item">
+              <p>Электронная почта</p>
+              <a class="about-link" href="mailto:info@namanganliklar24.uz">info@namanganliklar24.uz</a>
+            </li>
+            <li class="about-list-item">
+              <p>Социальные сети</p>
+              <a class="about-link" href="#" target="_blank">
+                <img class="media-img" src="img/facebook.png" alt="facebook" width="32" height="32" srcset="img/facebook.png 1x, img/facebook@2x.png 2x">
+                </a>
+                <a class="about-link" href="#" target="_blank">
+                <img class="media-img" src="img/twitter.png" alt="twitter" width="32" height="32" srcset="img/twitter.png 1x, img/twitter@2x.png 2x">
+                </a>
+                <a class="about-link" href="#" target="_blank">
+                <img class="media-img" src="img/odnoklasnik.png" alt="odnoklasnik" width="32" height="32" srcset="img/odnoklasnik.png 1x, img/odnoklasnik@2x.png 2x">
+                </a>
+            </li>
+
+            <li class="about-list-item">
+              <p>Телеграм канал</p>
+              <a class="about-link" href="#" target="_blank"></a>
+            </li>
+
+            <li class="about-list-item">
+              <p>Мобильная приложение</p>
+
+            </li>
+
+          </ul>
+        </section>
+      </div>
+    </div><!--container-->
+
+
+  </main>
+</body>
+</html>
