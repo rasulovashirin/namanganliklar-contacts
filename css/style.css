@@ -2,9 +2,7 @@
   box-sizing: border-box;
   outline: 0;
 }
-*:focus{
-  box-shadow: 0 0 3px 3px blue;
-}
+
 body{
   font-family: "Rubik","Arial", sans-serif;
 }
@@ -44,6 +42,9 @@ body{
   border-radius: 5px;
   padding: 5px 8px;
 
+}
+.logo-link:focus{
+  box-shadow: 0 0 3px 3px  lightblue;
 }
 .logo-img{
   width: 300px;
@@ -90,12 +91,18 @@ body{
   border: none;
   margin-right: 14px;
 }
+.search-input:focus{
+  box-shadow: 0 0 3px 3px lightblue;
+}
 .search-button{
   background-color: #FFFFFF;
   border-radius: 5px;
   border: none;
   padding: 8px;
   margin-right: 52px;
+}
+.search-button:focus{
+  box-shadow: 0 0 3px 3pxlightblue;
 }
 .search-button-img{
   width: 24px;
@@ -111,6 +118,7 @@ body{
   border: none;
   margin-right: 30px;
 }
+
 .lang-box::before{
   display: inline-block;
   width: 20px;
@@ -129,6 +137,9 @@ body{
   line-height: 19px;
   color: #535353;
 }
+.lang-select:focus{
+  box-shadow: 0 0 3px 3px lightblue;
+}
 .lang-select-option{
   font-weight: 500;
   font-size: 16px;
@@ -145,6 +156,10 @@ body{
   color: #FFFFFF;
   background-image:linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
   padding: 12px;
+  border-radius: 5px;
+}
+.telegram-link:focus{
+  box-shadow: 0 0 3px 3px lightblue;
   border-radius: 5px;
 }
 .telegram-img{
@@ -180,6 +195,11 @@ body{
 .menu-link:hover{
   color: #295091;
 }
+.menu-link:focus{
+  font-size:22px;
+  color: blue;
+  border-bottom: 1px solid blue;
+}
 .nrg-img{
   width: 1200px;
   height: 99px;
@@ -214,6 +234,7 @@ body{
   flex-direction: column;
 
 }
+
 .information-input{
   background-color: #F1F1F1;
   opacity: 0.3;
@@ -222,6 +243,9 @@ body{
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 20px;
+}
+.information-input:focus{
+  box-shadow: 0 0 3px 3px blue;
 }
 textarea{
   overflow: auto;
@@ -269,6 +293,9 @@ textarea{
   width: 32%;
   align-items: center;
 }
+.information-button:focus{
+  box-shadow: 0 0 3px 3px  rgb(103, 105, 105);
+}
 .about-site{
   background-color: #fff;
   border: 2px solid #BCC3CD;
@@ -303,18 +330,29 @@ textarea{
   text-decoration: none;
   color: #888888;
 }
+.about-link:focus{
+  font-size: 20px;
+  color: blue;
+  border-bottom: 1px solid blue;
+}
 .media-box{
   display: flex;
-
+  justify-content: space-between;
+   width: 124px;
 }
 .media-img{
   width: 32px;
   height: 32px;
   vertical-align: middle;
-  margin-left: 13px;
+
 }
 .media-facebook-img{
   margin-left: 0;
+}
+.media-style:focus{
+  border-radius: 50%;
+  box-shadow: 0 0 3px 3px  rgb(103, 105, 105) ;
+
 }
 .blue-telegram-link{
   background-color:#295091;
@@ -328,16 +366,30 @@ textarea{
   padding: 6px;
   border-radius: 5px;
 }
+.blue-telegram-link:focus{
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px  rgb(103, 105, 105);
+  color: #FFFFFF;
+}
+.goog-app{
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+}
 .googleplay-img{
   width: 111px;
   height: 33px;
   vertical-align: middle;
-  margin-right: 13px;
+
 }
 .appstore-img{
   width: 109px;
   height: 33px;
   vertical-align: middle;
+}
+.media-style-two:focus{
+ box-shadow: 0 0 3px 3px rgb(103, 105, 105);
+ border-radius: 5px;
 }
 /*  */
 .site-footer{
@@ -356,6 +408,10 @@ textarea{
   border-radius: 5px;
   padding: 10px;
 }
+.logo-bottom-link:focus{
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px white;
+}
 .logo-bottom-img{
   width: 171px;
   height: 13px;
@@ -369,7 +425,7 @@ textarea{
   margin-left: 188px;
   margin-right: 17px;
 }
-.blue-telegram-link{
+.blue-telegram-link-two{
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -380,6 +436,10 @@ textarea{
   background: #FFFFFF;
   padding: 10px;
   border-radius: 5px;
+}
+.blue-telegram-link-two:focus{
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px white;
 }
 .line{
   display: block;
@@ -404,7 +464,7 @@ textarea{
 .footer-bottom-list{
   list-style-type: none;
   margin-right: 115px;
-  
+
 }
 .footer-bottom-second-list{
   margin-right: 0;
@@ -420,4 +480,8 @@ textarea{
   line-height: 17px;
   color: #FFFFFF;
   text-decoration: none;
+}
+.footer-bottom-link:focus{
+  font-size: 18px;
+  border-bottom: 1px solid white;
 }
