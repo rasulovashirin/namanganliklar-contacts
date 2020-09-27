@@ -199,6 +199,7 @@ body{
 
 
 
+
 }
 .information{
   display: flex;
@@ -266,6 +267,7 @@ textarea{
   box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
   border-radius: 5px;
   padding: 23px;
+  padding-bottom: 0;
   margin-left: auto;
   max-width: 40%;
 }
@@ -292,8 +294,39 @@ textarea{
   text-decoration: none;
   color: #888888;
 }
+.media-box{
+  display: flex;
+
+}
 .media-img{
   width: 32px;
   height: 32px;
+  vertical-align: middle;
+  margin-left: 13px;
+}
+.media-facebook-img{
+  margin-left: 0;
+}
+.blue-telegram-link{
+  background-color:#295091;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 6px;
+  border-radius: 5px;
+}
+.googleplay-img{
+  width: 111px;
+  height: 33px;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+.appstore-img{
+  width: 109px;
+  height: 33px;
   vertical-align: middle;
 }
