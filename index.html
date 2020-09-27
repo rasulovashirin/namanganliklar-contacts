@@ -70,37 +70,37 @@
     <div class="container">
       <h2 class="main-title">Напишите нам</h2>
       <div class="main-inbox">
-        <section>
-        <form class="information" action="https://echo.htmlacademy.ru" method="POST">
+        <section class="form-section">
+          <form class="information" action="https://echo.htmlacademy.ru" method="POST">
 
-          <label class="visually-hidden" for="name-input"></label>
-          <input class="information-input" type="text" id="name-input" name="name-input" placeholder="Имя" required>
+            <label class="visually-hidden" for="name-input"></label>
+            <input class="information-input" type="text" id="name-input" name="name-input" placeholder="Имя" required>
 
-          <label class="visually-hidden" for="email-input"></label>
-          <input class="information-input" type="email" id="email-input" name="email-input" placeholder="Электронная почта" required>
+            <label class="visually-hidden" for="email-input"></label>
+            <input class="information-input" type="email" id="email-input" name="email-input" placeholder="Электронная почта" required>
 
-          <label class="visually-hidden" for="tel-input"></label>
-          <input class="information-input" type="tel" id="tel-input" name="tel-input" placeholder="Номер телефона" required>
+            <label class="visually-hidden" for="tel-input"></label>
+            <input class="information-input" type="tel" id="tel-input" name="tel-input" placeholder="Номер телефона" required>
 
-          <label class="visually-hidden" for="theme-input"></label>
-          <input class="information-input" type="text" id="theme-input" name="theme-input" placeholder="Тема" required>
+            <label class="visually-hidden" for="theme-input"></label>
+            <input class="information-input" type="text" id="theme-input" name="theme-input" placeholder="Тема" required>
 
-          <label class="visually-hidden" for="info-textarea"></label>
-          <textarea class="information-input textarea" type="text" id="info-textarea" name="info-textarea" placeholder="Текст"required></textarea>
+            <label class="visually-hidden" for="info-textarea"></label>
+            <textarea class="information-input textarea" type="text" id="info-textarea" name="info-textarea" placeholder="Текст"required></textarea>
 
-          <div class="file-box">
-            <label class="file-label-input" for="file-input">Прикрепить файл</label>
-            <input class="information-input visually-hidden" type="file" id="file-input" name="file-input" accept="" placeholder="Прикрепить файл" required>
-          </div>
+            <div class="file-box">
+              <label class="file-label-input" for="file-input">Прикрепить файл</label>
+              <input class="information-input visually-hidden" type="file" id="file-input" name="file-input" accept="" placeholder="Прикрепить файл" required>
+            </div>
 
-          <label class="visually-hidden" for="password-input"></label>
-          <input class="information-input password-input" type="password" id="password-input" name="password-input" placeholder="Код" required>
+            <label class="visually-hidden" for="password-input"></label>
+            <input class="information-input password-input" type="password" id="password-input" name="password-input" placeholder="Код" required>
 
-          <button class="information-button" type="submit">Отправить</button>
+            <button class="information-button" type="submit">Отправить</button>
+          </form>
 
-        </form>
-      </section>
-      
+        </section>
+
         <section class="about-site">
           <img class="logo-img logo-info" src="img/logo.png" alt="namanganliklar logo" width="300" height="21" srcset="img/logo.png 1x, img/logo@2x.png 2x">
           <ul class="about-list">
@@ -111,17 +111,17 @@
             </li>
             <li class="about-list-item">
               <p>Социальные сети</p>
-                <div class="media-box">
+              <div class="media-box">
                 <a class="about-link" href="#" target="_blank">
                   <img class="media-img media-facebook-img" src="img/facebook.png" alt="facebook" width="32" height="32" srcset="img/facebook.png 1x, img/facebook@2x.png 2x">
-                  </a>
-                  <a class="about-link" href="#" target="_blank">
+                </a>
+                <a class="about-link" href="#" target="_blank">
                   <img class="media-img" src="img/twitter.png" alt="twitter" width="32" height="32" srcset="img/twitter.png 1x, img/twitter@2x.png 2x">
-                  </a>
-                  <a class="about-link" href="#" target="_blank">
+                </a>
+                <a class="about-link" href="#" target="_blank">
                   <img class="media-img" src="img/odnoklasnik.png" alt="odnoklasnik" width="32" height="32" srcset="img/odnoklasnik.png 1x, img/odnoklasnik@2x.png 2x">
-                  </a>
-                </div>
+                </a>
+              </div>
             </li>
 
             <li class="about-list-item">
@@ -136,9 +136,9 @@
               <p>Мобильная приложение</p>
               <a class="about-link" href="#" target="_blank">
                 <img class="googleplay-img" src="img/googleplay.png" alt="googleplay" width="111" height="33" srcset="img/googleplay.png 1x, img/googleplay@2x.png 2x">
-               </a>
+              </a>
               <a class="about-link" href="#" target="_blank">
-               <img class="appstore-img" src="img/applestore.png" alt="appstore" width="109" height="33" srcset="img/applestore.png 1x, img/applestore@2x.png 2x">
+                <img class="appstore-img" src="img/applestore.png" alt="appstore" width="109" height="33" srcset="img/applestore.png 1x, img/applestore@2x.png 2x">
               </a>
             </li>
 
@@ -146,6 +146,40 @@
         </section>
       </div>
     </div><!--container-->
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer-top">
+          <a class="logo-bottom-link" href="#">
+            <img class="logo-bottom-img" src="img/logo-bottom.png" alt="namanganliklar logo" width="171" height="13">
+          </a>
+          <p class="site-footer-top-text">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
+          <a class="telegram-link blue-telegram-link" href="#" target="_blank">
+            <img class="telegram-img" src="img/bluetelegram.png" alt="telegram" width="20" height="20" srcset="img/bluetelegram.png 1x, img/bluetelegram@2x.png 2x">
+            Подписатся
+          </a>
+        </div>
+        <span class="line"></span>
+        <div class="footer-bottom">
+          <div class="footer-bottom-inbox">
+            <p>О сайте </p>
+            <p>Воспроизводство, копирование, тиражирование, распространение и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.</p>
+          </div>
+          <ul class="footer-bottom-list">
+            <li><a class="footer-bottom-link" href="#" target="_blank">Информация о сайте</a></li>
+            <li><a class="footer-bottom-link" href="#" target="_blank">Напишите нам</a></li>
+            <li><a class="footer-bottom-link" href="#" target="_blank">Реклама</a></li>
+            <li><a class="footer-bottom-link" href="#" target="_blank">Прислать новость</a></li>
+          </ul>
+          <ul class="footer-bottom-list footer-bottom-second-list">
+            <li><a class="footer-bottom-link" href="#" target="_blank">Использование материалов</a></li>
+            <li><a class="footer-bottom-link" href="#" target="_blank">Темы дня</a></li>
+            <li><a class="footer-bottom-link" href="#" target="_blank">Наша команда</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
 
 
   </main>
